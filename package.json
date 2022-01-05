@@ -1,0 +1,87 @@
+{
+  "name": "reacdq",
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "version": "1.0.0",
+  "description": "Basic React App with Google Token based login\r using my idserver4 instance.\r (well it will be when i fix all the bugs)",
+  "main": "main.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development parcel main.html ",
+    "build": "cross-env NODE_ENV=production parcel build main.html --no-minify --public-url /",
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "GNT",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "autoprefixer": "^7.2.1",
+    "babel-preset-react-app": "^3.1.0",
+    "gapi-script": "^1.0.1",
+    "history": "^4.10.1",
+    "logo.svg": "^1.0.1",
+    "main.css": "^1.0.0",
+    "mitt": "^1.1.3",
+    "oidc-client": "^1.9.1",
+    "parcel-bundler": "latest",
+    "query-string": "^6.9.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.1",
+    "redux-api-middleware": "^3.2.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "postcss": {
+    "modules": false,
+    "plugins": {
+      "autoprefixer": {
+        "browsers": [
+          ">1%",
+          "last 4 versions",
+          "Firefox ESR",
+          "not ie < 9"
+        ],
+        "flexbox": "no-2009"
+      }
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-regenerator": "^7.3.4",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/runtime": "^7.9.6",
+    "@reduxjs/toolkit": "^1.3.6",
+    "autoprefixer": "^7.2.6",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "cross-env": "^5.1.1",
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0",
+    "eslint-plugin-react": "^7.14.2",
+    "jest": "^22.4.4",
+    "postcss-modules": "^1.4.1"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost:1234/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnthackray1978/SkeletonReactApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gnthackray1978/SkeletonReactApp/issues"
+  },
+  "homepage": "https://github.com/gnthackray1978/SkeletonReactApp#readme"
+}
